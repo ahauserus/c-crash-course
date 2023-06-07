@@ -22,7 +22,25 @@ printf("%p", ptr); --> 006FE84. This will print the address of ptr.
 printf("%p", &ptr) --> 0040FE60
 printf("%d", *ptr) --> 10
 printf("%p", &a) --> 0040FE60
+```
+##### Relationship Between Arrays and Pointers
+> * Pointers and Arrays are synonymous in terms of how they access the memory. However, they differ in how they take addresses. A Pointer variable can take different addresses as value whereas, with arrays, the address is fixed. Also to note, the address of an array is the address of the first element of the array. This is also called the base address.
 
+```c
+int a[3];
+int *p = 10;
+
+p = a -> p points to the memory location of the array. We can also say that it's pointing to a[0].
+*p = 10 -> p sets the base item of the array to 10. a[0] = 10.
+
+p++; -> Also known as pointer arithmetic, increment the memory location by 1. Meaning, p now points to the next available memory location.
+
+*p = 20 -> p sets a[1] to 20. So a[1] = 20.
+p++;
+*p = 30 -> a[2] = 30;
+
+NB: p is the address.
+    *p is the value at address. The * is also called a dereference operator.
 
 ```
 
