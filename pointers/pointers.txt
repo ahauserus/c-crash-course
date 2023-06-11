@@ -1,0 +1,18 @@
+Pointer Arithmetic
+- These are operations that are performed on the memory locations of variables.
+- Pointers are used to access memory locations of variables.
+- There are limited set of pointer arithmetic operations.
+	1. Incremented ( ++ )
+	2. Decremented ( -- )
+	3. Inter addition ( + or += )
+	4. Inter subtraction ( - or -= )
+
+
+Working of Pointer Arithmetic	Operations
+1. Incremented ( ++ )
+	Example:
+	array[5] = {25, 67, 13, 12, 10}
+
+	int *ptr = &array[5];
+	ptr++; -> This means that ptr will point to the next element of array, array[1] = 67;
+
