@@ -58,50 +58,11 @@ Void Pointers
 - They are not associated with any data type.
 - They are used to store addresses of any data type.
 
-In C, malloc() and calloc() functions return void * pointers.
+In C, malloc() and calloc() functions return void * pointers. The twp are used for dynamic memory allocation.
+They are used in situations where we are bnot sure about the adrress of the data type.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+NULL Pointer
+- NULL is a constant in C. It's value is 0.
+- In case with the pointer - if any pointer does not conatin a valid memory address or any pointer is uninitialized, we refer to that as a "NULL" pointer.
+- We can alos assign 0 or NULL to make a pointer null.
