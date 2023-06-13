@@ -16,3 +16,92 @@ Working of Pointer Arithmetic	Operations
 	int *ptr = &array[5];
 	ptr++; -> This means that ptr will point to the next element of array, array[1] = 67;
 
+Poiter to a pointer
+- When a pointer holds the address of another pointer, it is a poointer to a pointer.
+- It is alos known as a double pointer.
+	- Eg:
+		int *ptr2 = *ptr1 = &array[5];
+		ptr2 is a double pointer that points to the address of ptr1.
+
+		A double pointer has 2 basic meanings:
+		- A pointer to a pointer.
+			Changing the value of a double pointer changes the original pointer.
+		- 2-d array such a matrix of a list of char*. A single pointer is a 1-d array.
+			A double pointer is a 2-d array. This can also be said to be a list of character pointers (list of char*)
+		- Example of a 2d array is: char* argv[]
+
+
+Declaring a Double Pointer:
+	Syntax:
+		DataType **VariableName;
+		- int i = 5;
+		int *ptr1;
+		int **ptr2;
+
+	Expounding:
+		ptr1 = &i; -> ptr1 holds the address of i.
+		ptr2 = &ptr1; -> ptr2 holds the address of ptr1.
+
+
+Side Note.
+	- Call by reference is also called call by arguments.
+	- There is also a call by value.
+
+	- In call by value, the the actual parameter value will be substituted with formal parameters.
+	- Whatever changes done to the formal parameters will not reflect the actual parameters.
+	- Values are not changed in call by value.
+	- This concept uses pointers.
+
+Void Pointers
+- Void pointers are used to point to a memory location that does not hold any value.
+- Void pointers are also known as null pointers.
+- They are not associated with any data type.
+- They are used to store addresses of any data type.
+
+In C, malloc() and calloc() functions return void * pointers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
