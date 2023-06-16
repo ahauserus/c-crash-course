@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - Prints pattern 1 from the README file
  * Return: 0 is success, 1 otherwise
  */
 
