@@ -63,8 +63,6 @@ Different types of patterns written in C.
      * *
       *
 ```
-7
-```
 8
 ```
 1
@@ -95,5 +93,3 @@ Different types of patterns written in C.
 7 6
 7
 ```
-
-
