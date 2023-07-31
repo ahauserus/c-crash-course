@@ -7,15 +7,12 @@
 
 int main(void)
 {
-	int rows, cols, size;
+	int i, j, k;
+	int rows = 7;
 
-	size = 7;
-
-	for (rows = 1; rows <= size; rows++)
+	for (i = 1; i <= rows; i++)
 	{
-		for (cols = size; cols >= rows; cols--)
-			printf("* ");
-		printf("\n");
+		for (j = 1; j <= i; j++)
 	}
 	return (0);
 }
