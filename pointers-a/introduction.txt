@@ -1,0 +1,6 @@
+Pointers
+___
+A pointer variable holds the address of a standard variable.
+Eg:
+	int *ptr; -> Pointer to an integer variable.
+
